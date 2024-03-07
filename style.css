@@ -1,9 +1,9 @@
 .navbar {
     background-color: #333 !important; 
 }
-/* .body{
-    min-height: 1500px;
-} */
+.body{
+    min-height: 1000px;
+}
 
 .jumbotron{
     padding-top: 2rem;
@@ -20,6 +20,10 @@
     padding: 15px; 
     text-align: center; 
 }
+.sosmed{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
 .sosmed a {
     margin-right: 10px; 
     text-decoration: none; 
@@ -27,6 +31,9 @@
 
 .sosmed a:hover {
     opacity: 0.8; 
+}
+.X p {
+    text-align: center;
 }
 
 /*  */
