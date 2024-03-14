@@ -1,8 +1,29 @@
 .navbar {
     background-color: #333 !important; 
 }
+.navbar-nav .nav-link {
+    transition: transform 0.3s ease-in-out; /* Efek transisi untuk perubahan transformasi */
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.1); /* Membesarkan ukuran teks saat kursor mengarah ke atasnya (hover) */
+}
+
+.footer {
+    background-color: #333; /* Warna latar belakang footer */
+    padding: 20px 0; /* Memberikan padding atas dan bawah pada footer */
+}
+
+.footer a {
+    color: #1b7ec0; /* Warna teks link pada footer */
+}
+
+.footer a:hover {
+    color: #ffffff; /* Warna teks link saat dihover pada footer */
+}
+
 .body{
-    min-height: 1000px;
+    width: 500px
 }
 
 .jumbotron{
@@ -161,4 +182,36 @@
 }
 .card-box p {
     color: #808080;
+}
+
+.social-icons a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out; /* Efek transisi untuk perubahan transformasi */
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Membesarkan ikon saat kursor mengarah ke atasnya (hover) */
+}
+
+
+.card {
+    background: linear-gradient(to bottom right, #ffffff, #d8e8ee); /* Efek gradasi dari atas kiri ke bawah kanan */
+    border-radius: 10px; /* Mengatur border-radius untuk memberikan efek sudut membulat */
+    margin-bottom: 20px; /* Memberikan jarak antara kotak */
+    padding: 20px; /* Memberikan padding di dalam kotak */
+}
+
+    
+.X {
+    background: linear-gradient(to bottom right, #ffffff, #dae8ec); /* Efek gradasi dari atas kiri ke bawah kanan */
+    border-radius: 10px; /* Mengatur border-radius untuk memberikan efek sudut membulat */
+    margin-bottom: 20px; /* Memberikan jarak antara kotak */
+    padding: 20px; /* Memberikan padding di dalam kotak */
+}
+
+.card-box {
+    background: linear-gradient(to bottom right, #ffffff, #e7f0f3); /* Efek gradasi dari atas kiri ke bawah kanan */
+    border-radius: 10px; /* Mengatur border-radius untuk memberikan efek sudut membulat */
+    margin-bottom: 20px; /* Memberikan jarak antara kotak */
+    padding: 20px; /* Memberikan padding di dalam kotak */
 }
