@@ -6,7 +6,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-    transform: scale(1.1); /* Membesarkan ukuran teks saat kursor mengarah ke atasnya (hover) */
+    transform: scale(1.05); /* Membesarkan ukuran teks saat kursor mengarah ke atasnya (hover) */
 }
 
 .footer {
@@ -195,7 +195,7 @@
 
 
 .card {
-    background: linear-gradient(to bottom right, #ffffff, #d8e8ee); /* Efek gradasi dari atas kiri ke bawah kanan */
+    background: linear-gradient(to bottom right, #ffffff, #f2f7fa); /* Efek gradasi dari atas kiri ke bawah kanan */
     border-radius: 10px; /* Mengatur border-radius untuk memberikan efek sudut membulat */
     margin-bottom: 20px; /* Memberikan jarak antara kotak */
     padding: 20px; /* Memberikan padding di dalam kotak */
@@ -203,15 +203,16 @@
 
     
 .X {
-    background: linear-gradient(to bottom right, #ffffff, #dae8ec); /* Efek gradasi dari atas kiri ke bawah kanan */
+    background: linear-gradient(to bottom right, #ffffff, #ffffff); /* Efek gradasi dari atas kiri ke bawah kanan */
     border-radius: 10px; /* Mengatur border-radius untuk memberikan efek sudut membulat */
     margin-bottom: 20px; /* Memberikan jarak antara kotak */
     padding: 20px; /* Memberikan padding di dalam kotak */
 }
 
 .card-box {
-    background: linear-gradient(to bottom right, #ffffff, #e7f0f3); /* Efek gradasi dari atas kiri ke bawah kanan */
+    background: linear-gradient(to bottom right, #ffffff, #f2f7fa); /* Efek gradasi dari atas kiri ke bawah kanan */
     border-radius: 10px; /* Mengatur border-radius untuk memberikan efek sudut membulat */
     margin-bottom: 20px; /* Memberikan jarak antara kotak */
     padding: 20px; /* Memberikan padding di dalam kotak */
 }
+
