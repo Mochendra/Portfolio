@@ -1,0 +1,218 @@
+.navbar {
+    background-color: #333 !important; 
+}
+.navbar-nav .nav-link {
+    transition: transform 0.3s ease-in-out; /* Efek transisi untuk perubahan transformasi */
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.05); /* Membesarkan ukuran teks saat kursor mengarah ke atasnya (hover) */
+}
+
+.footer {
+    background-color: #333; /* Warna latar belakang footer */
+    padding: 20px 0; /* Memberikan padding atas dan bawah pada footer */
+}
+
+.footer a {
+    color: #1b7ec0; /* Warna teks link pada footer */
+}
+
+.footer a:hover {
+    color: #ffffff; /* Warna teks link saat dihover pada footer */
+}
+
+.body{
+    width: 500px
+}
+
+.jumbotron{
+    padding-top: 2rem;
+    background-color: #e2edff;
+}
+/* .container{
+    margin: 20px auto 0px auto;
+    width: 95%;
+    max-width: 1200px;
+} */
+.footer {
+    background-color: #333; 
+    color: white; 
+    padding: 15px; 
+    text-align: center; 
+}
+.sosmed{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.sosmed a {
+    margin-right: 10px; 
+    text-decoration: none; 
+}
+
+.sosmed a:hover {
+    opacity: 0.8; 
+}
+.body {
+    background-color: blue;
+}
+
+/*  */
+
+.X{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 14px 80px;
+  cursor: pointer;
+}
+
+.X:hover{
+     transform: scale(1.06);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+@media(max-width: 990px){
+  .X{
+    margin: 20px;
+  }
+} 
+.X-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/*  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif
+}
+
+.container .card
+{
+    max-width: 300px;
+    height: 215px;
+    margin: 60px 20px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover
+{
+    height: 450px;
+}
+.container .card .imgContainer
+{
+    position: relative;
+    width:250px;
+    height:250px;
+    top:-50px;
+    left:10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgContainer img
+{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+@media (max-width: 330px){
+    .container .card .imgContainer{
+        left: -2px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    place-items: center;
+    height: 50vh; /* Sesuaikan dengan kebutuhan */
+}
+
+/*  */
+
+.user-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 20px auto 20px;
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+.card-box:hover .user-pic {
+    transform: rotate(0deg);
+    transform: scale(1.1);
+}
+.card-box {
+    padding: 15px;
+    background-color: #fdfdfd;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 8px 0px #d4d4d4;
+    transition: 0.5s;
+}
+.card-box:hover {
+	border: 1px solid #007bff;
+}
+.card-box p {
+    color: #808080;
+}
+
+.social-icons a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out; /* Efek transisi untuk perubahan transformasi */
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Membesarkan ikon saat kursor mengarah ke atasnya (hover) */
+}
+
+
+.card {
+    background: linear-gradient(to bottom right, #ffffff, #f2f7fa); /* Efek gradasi dari atas kiri ke bawah kanan */
+    border-radius: 10px; /* Mengatur border-radius untuk memberikan efek sudut membulat */
+    margin-bottom: 20px; /* Memberikan jarak antara kotak */
+    padding: 20px; /* Memberikan padding di dalam kotak */
+}
+
+    
+.X {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff); /* Efek gradasi dari atas kiri ke bawah kanan */
+    border-radius: 10px; /* Mengatur border-radius untuk memberikan efek sudut membulat */
+    margin-bottom: 20px; /* Memberikan jarak antara kotak */
+    padding: 20px; /* Memberikan padding di dalam kotak */
+}
+
+.card-box {
+    background: linear-gradient(to bottom right, #ffffff, #f2f7fa); /* Efek gradasi dari atas kiri ke bawah kanan */
+    border-radius: 10px; /* Mengatur border-radius untuk memberikan efek sudut membulat */
+    margin-bottom: 20px; /* Memberikan jarak antara kotak */
+    padding: 20px; /* Memberikan padding di dalam kotak */
+}
+
